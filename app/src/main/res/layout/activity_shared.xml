@@ -7,127 +7,6 @@
     tools:context="com.example.a1691695.youtube.Shared">
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="145dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        android:weightSum="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="62dp"
-            android:layout_weight="0.44"
-            android:background="#e62117"
-            android:orientation="horizontal"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="112dp">
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.67"
-                android:paddingBottom="0dp"
-                android:paddingLeft="0dp"
-                android:paddingRight="0dp"
-                android:paddingStart="20dp"
-                android:paddingTop="10dp"
-                android:text="Home"
-                android:textColor="@android:color/white"
-                android:textSize="25sp" />
-
-            <ImageButton
-                android:id="@+id/imageButton20"
-                android:layout_width="wrap_content"
-                android:layout_height="58dp"
-                android:layout_weight="0.20"
-                android:background="@android:color/transparent"
-                app:srcCompat="@drawable/cast_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton21"
-                android:layout_width="wrap_content"
-                android:layout_height="51dp"
-                android:layout_weight="0.15"
-                android:background="@android:color/transparent"
-                android:paddingTop="10dp"
-                app:srcCompat="@drawable/search_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton22"
-                android:layout_width="wrap_content"
-                android:layout_height="55dp"
-                android:layout_weight="0.32"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/dots_1" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFE62117"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/imageButton23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                app:srcCompat="@drawable/home_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                app:srcCompat="@drawable/trending_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/account_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/shared_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/subscription_1" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
         android:layout_width="384dp"
         android:layout_height="351dp"
         android:layout_marginBottom="8dp"
@@ -276,5 +155,127 @@
 
             </LinearLayout>
         </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_weight="0.44"
+            android:background="#e62117"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="112dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.67"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="20dp"
+                android:paddingTop="10dp"
+                android:text="Shared"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_weight="0.20"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/cast_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_weight="0.15"
+                android:background="@android:color/transparent"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/search_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="0.32"
+                android:background="@android:color/transparent"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/dots_1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFE62117"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="HomeClick"
+                app:srcCompat="@drawable/home_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/trending_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="SubClick"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/subscription_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/shared_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/account_1" />
+
+        </LinearLayout>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

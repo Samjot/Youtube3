@@ -7,8 +7,8 @@
     tools:context="com.example.a1691695.youtube.MainActivity">
 
     <LinearLayout
-        android:layout_width="384dp"
-        android:layout_height="351dp"
+        android:layout_width="398dp"
+        android:layout_height="439dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -20,7 +20,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteY="152dp"
+        tools:layout_editor_absoluteY="145dp"
         tools:layout_editor_absoluteX="1dp">
 
         <ScrollView
@@ -191,8 +191,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="393dp"
-        android:layout_height="145dp"
+        android:layout_width="382dp"
+        android:layout_height="133dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -202,18 +202,18 @@
         android:orientation="vertical"
         android:weightSum="1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="394dp"
             android:layout_height="62dp"
-            android:layout_weight="0.44"
             android:background="#e62117"
             android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="112dp">
 
@@ -221,13 +221,13 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="0.67"
+                android:layout_weight="0.65"
                 android:paddingBottom="0dp"
                 android:paddingLeft="0dp"
                 android:paddingRight="0dp"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
-                android:text="Home"
+                android:text="Subscription"
                 android:textColor="@android:color/white"
                 android:textSize="25sp" />
 
@@ -271,6 +271,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
+                android:onClick="HomeClick"
                 app:srcCompat="@drawable/home_1" />
 
             <ImageButton
@@ -282,6 +283,26 @@
                 app:srcCompat="@drawable/trending_1" />
 
             <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="SubClick"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/subscription_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="SharedClick"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/shared_1" />
+
+            <ImageButton
                 android:id="@+id/imageButton27"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -290,23 +311,6 @@
                 android:paddingTop="5dp"
                 app:srcCompat="@drawable/account_1" />
 
-            <ImageButton
-                android:id="@+id/imageButton26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/shared_1" />
-
-            <ImageButton
-                android:id="@+id/imageButton25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:paddingTop="5dp"
-                app:srcCompat="@drawable/subscription_1" />
         </LinearLayout>
 
     </LinearLayout>
