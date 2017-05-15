@@ -19,7 +19,8 @@
         <activity android:name=".Subscription" />
         <activity android:name=".Shared" />
         <activity android:name=".Serach" />
-        <activity android:name=".Trending"></activity>
+        <activity android:name=".Trending" />
+        <activity android:name=".Trending1"></activity>
     </application>
 
 </manifest>
