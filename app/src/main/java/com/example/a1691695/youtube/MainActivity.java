@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void HomeClickplay (View v){
-        Intent intent = new Intent(this, Trending.class);
+    public void HomeClicksearch (View v){
+        Intent intent = new Intent(this, Serach.class);
         startActivity(intent);
     }
 

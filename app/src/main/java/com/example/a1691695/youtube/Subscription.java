@@ -7,18 +7,43 @@ import android.view.View;
 
 public class Subscription extends AppCompatActivity {
 
-    public void SubClick (View v){
+    public void SubClicksub (View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
-    public void SubClick1 (View v){
+    public void SubClickshared (View v){
         Intent intent = new Intent(this, Shared.class);
         startActivity(intent);
     }
 
-    public void SubClick2 (View v){
+    public void SubClickcast (View v){
         Intent intent = new Intent(this, Cast.class);
+        startActivity(intent);
+    }
+
+    public void SubClickaccount (View v){
+        Intent intent = new Intent(this, Account.class);
+        startActivity(intent);
+    }
+
+    public void SubClicktrending (View v){
+        Intent intent = new Intent(this, Trending1.class);
+        startActivity(intent);
+    }
+
+    public void SubClickhome (View v){
+        Intent intent = new Intent(this, Subscription.class);
+        startActivity(intent);
+    }
+
+    public void SubClicksearch (View v){
+        Intent intent = new Intent(this, Serach.class);
+        startActivity(intent);
+    }
+
+    public void SubClickplay (View v){
+        Intent intent = new Intent(this, Trending.class);
         startActivity(intent);
     }
 

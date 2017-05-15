@@ -9,12 +9,12 @@
     <FrameLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -66,6 +66,7 @@
                     android:layout_height="58dp"
                     android:layout_weight="0.20"
                     android:background="@android:color/transparent"
+                    android:onClick="accountClickCast"
                     app:srcCompat="@drawable/cast_1" />
 
                 <ImageButton
@@ -74,6 +75,7 @@
                     android:layout_height="51dp"
                     android:layout_weight="0.15"
                     android:background="@android:color/transparent"
+                    android:onClick="accountClickserach"
                     android:paddingTop="10dp"
                     app:srcCompat="@drawable/search_1" />
 
@@ -83,24 +85,25 @@
                     android:layout_height="55dp"
                     android:layout_weight="0.32"
                     android:background="@android:color/transparent"
+                    android:paddingRight="5dp"
                     android:paddingTop="5dp"
                     app:srcCompat="@drawable/dots_1" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="380dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#FFE62117"
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/imageButton37"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="66dp"
                     android:background="@android:color/transparent"
-                    android:paddingBottom="10dp"
-                    app:srcCompat="@drawable/homenew_1" />
+                    android:onClick="accountClickhome"
+                    app:srcCompat="@drawable/home" />
 
                 <ImageButton
                     android:id="@+id/imageButton24"
@@ -108,6 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:onClick="accountClickTrending"
                     app:srcCompat="@drawable/trending_1" />
 
                 <ImageButton
@@ -116,6 +120,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:onClick="accountClickSubs"
                     android:paddingRight="10dp"
                     android:paddingTop="5dp"
                     app:srcCompat="@drawable/subscription_1" />
@@ -126,6 +131,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:onClick="accountClickshared"
                     android:paddingTop="5dp"
                     app:srcCompat="@drawable/shared_1" />
 
@@ -135,8 +141,8 @@
                     android:layout_height="78dp"
                     android:background="@android:color/transparent"
                     android:paddingLeft="0dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="7dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="8dp"
                     app:srcCompat="@drawable/account_2" />
 
             </LinearLayout>
@@ -270,13 +276,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="37dp"
                                 android:paddingBottom="3dp"
-                                app:srcCompat="@drawable/watchlater_1" />
+                                app:srcCompat="@drawable/watchlater_1"
+                                android:layout_weight="1.72" />
 
                             <TextView
                                 android:id="@+id/textView15"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
-                                android:layout_weight="12.61"
+                                android:layout_weight="4.68"
                                 android:paddingTop="7dp"
                                 android:text="Watch later"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -346,11 +353,11 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
+                android:layout_marginTop="124dp"
+                app:srcCompat="@drawable/grey_12"
                 android:layout_alignParentTop="true"
-                android:layout_marginTop="132dp"
-                app:srcCompat="@drawable/grey_12" />
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -361,10 +368,11 @@
                 android:layout_alignTop="@+id/imageView"
                 android:layout_marginEnd="13dp"
                 android:layout_marginRight="13dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="68dp"
                 android:background="@android:color/transparent"
-                android:onClick="live"
-                android:paddingTop="2dp"
+                android:onClick="accountClicklive"
+                android:paddingBottom="0dp"
+                android:paddingTop="1dp"
                 app:srcCompat="@drawable/livenew_1" />
         </RelativeLayout>
 

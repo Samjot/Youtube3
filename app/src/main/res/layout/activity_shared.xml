@@ -41,7 +41,8 @@
                         android:layout_height="match_parent"
                         android:layout_marginBottom="0dp"
                         android:layout_marginTop="10dp"
-                        android:text="                                                                         VIEW CONTACTS"
+                        android:paddingRight="0dp"
+                        android:text="                                                                    VIEW CONTACTS"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="15sp" />
                 </LinearLayout>
@@ -66,6 +67,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="0.16"
+                                android:paddingLeft="15dp"
                                 app:srcCompat="@drawable/pic_12" />
 
                             <LinearLayout
@@ -97,9 +99,9 @@
 
                             <ImageView
                                 android:id="@+id/imageView14"
-                                android:layout_width="wrap_content"
-                                android:layout_height="59dp"
-                                android:paddingLeft="10dp"
+                                android:layout_width="105dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
                                 app:srcCompat="@drawable/pic_13" />
 
                         </LinearLayout>
@@ -115,6 +117,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="0.12"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="0dp"
                                 app:srcCompat="@drawable/pic_14" />
 
                             <LinearLayout
@@ -202,6 +206,7 @@
                 android:layout_height="58dp"
                 android:layout_weight="0.20"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClickCast"
                 app:srcCompat="@drawable/cast_1" />
 
             <ImageButton
@@ -210,6 +215,7 @@
                 android:layout_height="51dp"
                 android:layout_weight="0.15"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClicksearch"
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/search_1" />
 
@@ -234,6 +240,7 @@
                 android:id="@+id/imageButton34"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
+                android:onClick="SharedClickhome"
                 app:srcCompat="@drawable/home_2" />
 
             <ImageButton
@@ -242,6 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClicktrending"
                 android:paddingTop="5dp"
                 app:srcCompat="@drawable/trending_1" />
 
@@ -251,7 +259,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:onClick="SubClick"
+                android:onClick="SharedClicktrending"
                 android:paddingTop="8dp"
                 app:srcCompat="@drawable/subscription_1" />
 
@@ -260,6 +268,7 @@
                 android:layout_width="85dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClickshared"
                 android:paddingTop="0dp"
                 app:srcCompat="@drawable/shared_2" />
 
@@ -269,6 +278,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClickaccount"
+                android:paddingRight="5dp"
                 android:paddingTop="8dp"
                 app:srcCompat="@drawable/account_1" />
 
