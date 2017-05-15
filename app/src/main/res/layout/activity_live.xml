@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1691695.youtube.live">
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="596dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#272727"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            style="@android:style/Widget.Holo.ImageButton"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="back"
+            android:paddingLeft="12dp"
+            app:srcCompat="@drawable/close_1"
+            android:layout_weight="0.25" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="297dp"
+            app:srcCompat="@drawable/speakerlive_1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.19"
+            android:paddingBottom="0dp"
+            android:paddingLeft="110dp"
+            android:text="Start the show"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:text="To create anew video, allow access to"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="95dp"
+            android:text="Photos, Camera and Microphone"
+            android:textColor="@android:color/white"
+            android:layout_weight="0.16" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingLeft="13dp"
+            android:paddingTop="20dp"
+            app:srcCompat="@drawable/allowaccess_1"
+            android:layout_weight="0.24" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

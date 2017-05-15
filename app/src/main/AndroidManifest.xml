@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Subscription" />
-        <activity android:name=".Shared"></activity>
+        <activity android:name=".Shared" />
+        <activity android:name=".Account" />
+        <activity android:name=".live"></activity>
     </application>
 
 </manifest>
