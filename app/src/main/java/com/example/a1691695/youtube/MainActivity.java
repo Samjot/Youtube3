@@ -8,6 +8,42 @@ import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
 
+    public void HomeClickshared (View v){
+        Intent intent = new Intent(this, Shared.class);
+        startActivity(intent);
+    }
+
+    public void HomeClickhome (View v){
+        Intent intent = new Intent(this, Subscription.class);
+        startActivity(intent);
+    }
+
+    public void HomeClickcast (View v){
+        Intent intent = new Intent(this, Cast.class);
+        startActivity(intent);
+    }
+
+    public void HomeClicksubs (View v){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void HomeClickaccount (View v){
+        Intent intent = new Intent(this, Account.class);
+        startActivity(intent);
+    }
+
+    public void HomeClicktrending (View v){
+        Intent intent = new Intent(this, Trending1.class);
+        startActivity(intent);
+    }
+
+    public void HomeClicksearch (View v){
+        Intent intent = new Intent(this, Serach.class);
+        startActivity(intent);
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -15,19 +51,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void SubClick (View v){
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
-    }
-    public void SharedClick (View v){
-        Intent intent = new Intent(this,Shared.class);
-        startActivity(intent);
-    }
 
-    public void HomeClick (View v){
-        Intent intent = new Intent(this,Subscription.class);
-        startActivity(intent);
-    }
+
+
+
 
 
 }

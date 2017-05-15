@@ -15,17 +15,15 @@
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="152dp">
+        app:layout_constraintVertical_bias="0.657"
+        android:id="@+id/linearLayout2">
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="312dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,7 +41,8 @@
                         android:layout_height="match_parent"
                         android:layout_marginBottom="0dp"
                         android:layout_marginTop="10dp"
-                        android:text="                                                                         VIEW CONTACTS"
+                        android:paddingRight="0dp"
+                        android:text="                                                                    VIEW CONTACTS"
                         android:textColor="@android:color/holo_blue_dark"
                         android:textSize="15sp" />
                 </LinearLayout>
@@ -68,6 +67,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="0.16"
+                                android:paddingLeft="15dp"
                                 app:srcCompat="@drawable/pic_12" />
 
                             <LinearLayout
@@ -99,9 +99,9 @@
 
                             <ImageView
                                 android:id="@+id/imageView14"
-                                android:layout_width="wrap_content"
-                                android:layout_height="59dp"
-                                android:paddingLeft="10dp"
+                                android:layout_width="105dp"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="5dp"
                                 app:srcCompat="@drawable/pic_13" />
 
                         </LinearLayout>
@@ -116,7 +116,9 @@
                                 android:id="@+id/imageView15"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="0.16"
+                                android:layout_weight="0.12"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="0dp"
                                 app:srcCompat="@drawable/pic_14" />
 
                             <LinearLayout
@@ -168,12 +170,12 @@
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         android:weightSum="1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -204,6 +206,7 @@
                 android:layout_height="58dp"
                 android:layout_weight="0.20"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClickCast"
                 app:srcCompat="@drawable/cast_1" />
 
             <ImageButton
@@ -212,6 +215,7 @@
                 android:layout_height="51dp"
                 android:layout_weight="0.15"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClicksearch"
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/search_1" />
 
@@ -233,13 +237,11 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:onClick="HomeClick"
-                app:srcCompat="@drawable/home_1" />
+                android:id="@+id/imageButton34"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:onClick="SharedClickhome"
+                app:srcCompat="@drawable/home_2" />
 
             <ImageButton
                 android:id="@+id/imageButton24"
@@ -247,6 +249,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
+                android:onClick="SharedClicktrending"
+                android:paddingTop="5dp"
                 app:srcCompat="@drawable/trending_1" />
 
             <ImageButton
@@ -255,10 +259,18 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:onClick="SubClick"
-                android:paddingTop="5dp"
+                android:onClick="SharedClicktrending"
+                android:paddingTop="8dp"
                 app:srcCompat="@drawable/subscription_1" />
 
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:onClick="SharedClickshared"
+                android:paddingTop="0dp"
+                app:srcCompat="@drawable/shared_2" />
 
             <ImageButton
                 android:id="@+id/imageButton27"
@@ -266,7 +278,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:paddingTop="5dp"
+                android:onClick="SharedClickaccount"
+                android:paddingRight="5dp"
+                android:paddingTop="8dp"
                 app:srcCompat="@drawable/account_1" />
 
         </LinearLayout>

@@ -5,16 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class live extends AppCompatActivity {
+public class Cast extends AppCompatActivity {
 
-    public void liveClickback (View v){
-        Intent intent = new Intent(this, Account.class);
+    public void CastClickback (View v){
+        Intent intent = new Intent(this, Subscription.class);
         startActivity(intent);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_live);
+        setContentView(R.layout.activity_cast);
     }
 }
